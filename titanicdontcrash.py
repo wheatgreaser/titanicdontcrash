@@ -3,7 +3,7 @@ import numpy as np
 from sklearn import svm
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv('train.csv')
+data = pd.read_csv('titanicdata.csv')
 
 X = data["Sex"].head(50)
 y = data["Survived"].head(50)
